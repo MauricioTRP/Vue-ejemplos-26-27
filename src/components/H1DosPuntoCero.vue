@@ -11,7 +11,10 @@ export default {
 </script>
 
 <template>
-  <h1 :style="{ background: fondo }" :class="{ 'text-white': fondo === 'black' }">
+  <h1
+    :style="{ background: fondo }"
+    :class="{ 'text-white': fondo === 'black' || fondo === 'blue' }"
+  >
     Nuestro título camaleón
   </h1>
   <form>
